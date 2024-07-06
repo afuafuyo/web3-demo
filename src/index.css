@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: #000;
+  font-family: Manrope, sans-serif;
+  word-wrap: break-word;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+
+.app-card {
+  padding-top: .8rem;
+  padding-bottom: .6rem;
+  border-radius: .56rem .56rem 0 0;
+  background-color: rgba(244, 244, 244, 1);
+}
+.app-bg1 {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 50%;
+  /* width: 7.3rem; */
+  transform: translateX(-50%);
+  /* transform: rotate(-56deg); */
+}
+.app-bg2 {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+
+@media screen and (max-width: 744px) {
+  .app-bg2 {
+    top: 2.5rem;
+    left: -0.44rem;
+  }
+  .app-card {
+    padding-top: .7rem;
+    padding-bottom: .6rem;
+    border-radius: .32rem .32rem 0 0;
+    background-color: rgba(244, 244, 244, 1);
+  }
+}

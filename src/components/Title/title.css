@@ -1,0 +1,64 @@
+.t-wrapper {
+  width: 8.86rem;
+  margin: 3.2rem auto 0 auto;
+}
+.t-title {
+  line-height: 1.4rem;
+  font-size: 1.14rem;
+  color: #fff;
+  vertical-align: top;
+  text-align: center;
+  font-weight: normal;
+}
+.t-describe {
+  font-size: .22rem;
+  text-align: center;
+  color: rgba(255, 255, 255, .72);
+  margin: .4rem .2rem 0 .2rem;
+}
+
+.t-btn-wrapper {
+  margin-top: .8rem;
+  font-size: 0;
+  text-align: center;
+}
+.t-btn {
+  height: .6rem;
+  line-height: .6rem;
+  border-radius: .3rem;
+}
+
+@media screen and (max-width: 744px) {
+  .t-wrapper {
+    width: auto;
+    margin: 2.15rem .34rem 0 .34rem;
+  }
+  .t-title {
+    line-height: .5rem;
+    font-size: .36rem;
+    color: #fff;
+    vertical-align: top;
+    text-align: center;
+    font-weight: normal;
+  }
+  .t-describe {
+    font-size: .14rem;
+    text-align: center;
+    color: rgba(255, 255, 255, .72);
+    margin: .2rem .2rem 0 .2rem;
+  }
+  
+  .t-btn-wrapper {
+    margin-top: .4rem;
+    font-size: 0;
+    text-align: center;
+  }
+  .t-btn {
+    height: .4rem;
+    line-height: .4rem;
+    border-radius: .2rem;
+    background-color: #fff;
+    color: #000;
+    font-size: .14rem;
+  }
+}
